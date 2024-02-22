@@ -4,6 +4,7 @@ import Clock from './Clock.tsx'
 
 /* 24-hour analog clock */
 function App() {
+  // get the current time
   const [] = useState(new Date());
 
   return (
@@ -13,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
