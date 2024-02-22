@@ -3,7 +3,7 @@ import './App.css'
 
 /* 24-hour analog clock */
 function App() {
-  const [time] = useState(new Date());
+  const [] = useState(new Date());
 
   return (
     <div className="App">
