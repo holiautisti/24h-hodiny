@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Clock from "./Clock.tsx";
+import Clock from "./Clock.jsx";
 
 /* 24-hour analog clock */
 function App() {
